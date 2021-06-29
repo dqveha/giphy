@@ -18,8 +18,6 @@ $(document).ready(function () {
     $('#trend3').text(`Sorry, it's not working.`);
   })
   
-
-
   $('#gifSearch').click(function () {
     const searchInput = $('#search').val();
     let promise = GiphyService.getSearchGiphy(searchInput);
@@ -42,5 +40,4 @@ $(document).ready(function () {
     });
   });
 
-  
 });
